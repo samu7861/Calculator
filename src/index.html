@@ -1,18 +1,38 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Manipulación del DOM básica - Curso Práctico de JavaScript</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Manipulación del DOM básica</h1>
-<form id="form">
-<input id="calculo1" placeholder="Escribe algo aquí" />
-<input id="calculo2" placeholder="Escribe algo aquí" />
-<button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
-<p id="result"></p>
-</form>
-<script src="script.js"></script>
+    
+    <div class="Calculadora">
+        <div class="Pantalla">0</div>
+        <button id="c" class="btn">C</button>
+        <button id="delete" class="btn">←</button>
+        <button class="btn">/</button>
+        <button class="btn">*</button>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn">-</button>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">+</button>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button id="igual" class="btn">=</button>
+        <button id="Cero" class="btn">0</button>
+        <button class="btn">.</button>
+    </div>
+
+
+
+    <script src="script.js"></script>
 </body>
 </html>
